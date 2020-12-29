@@ -1,0 +1,23 @@
+{
+  "name": "key-value-data-store",
+  "version": "1.0.0",
+  "description": "A key-value data store for CRD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manujSharmaM/key-value-data-store.git"
+  },
+  "author": "Manuj Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manujSharmaM/key-value-data-store/issues"
+  },
+  "homepage": "https://github.com/manujSharmaM/key-value-data-store#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-localstorage": "^2.1.6"
+  }
+}
