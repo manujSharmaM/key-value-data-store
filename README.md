@@ -15,14 +15,15 @@ To run this project ,install it locally using npm:
 
 create a js file and import the keyvaluedatastore.lib
 
-    const datastore = require("./keyvaluedatastore-lib.js")
+        const datastore = require("./keyvaluedatastore-lib.js")
 
 This will be create the file path by default
-    const store = new datastore();
+    
+        const store = new datastore();
 
 Otherwise mention the file path as shown below
 
-    const store = new datastore("./datastore.txt");
+        const store = new datastore("./datastore.txt");
 
 ### After instanitating the class, You could use "store" for CRD operations as shown below
 
