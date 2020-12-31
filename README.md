@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Freshworks Assignment - To build a file-based key-value data store that supports the basic CRD operations.
+To build a file-based key-value data store that supports the basic CRD operations.
 
 ## Setup
 
@@ -25,9 +25,7 @@ Otherwise mention the file path like this for instance
 const store = new datastore("./datastore.txt");
 ...
 
-### After instanitating the class you could use "store" for CRD operations as shown below in Unit-Testing
-
-## Unit-Testing
+### After instanitating the class, You could use "store" for CRD operations as shown below 
 
 To create a key-value in existing or new data store file
 ...
