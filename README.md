@@ -28,7 +28,7 @@ Otherwise mention the file path as shown below
 
 To create a key-value in existing or new data store file
 create has 3 arguments key ,value and time_to_live
-value and time_to_live is stored a json in value as shown below
+value and time_to_live is stored a json in value as shown here
         "John" : {
         "value": "15000",
         "time_to_live" : 60
