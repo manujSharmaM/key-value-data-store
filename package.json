@@ -16,8 +16,5 @@
     "url": "https://github.com/manujSharmaM/key-value-data-store/issues"
   },
   "homepage": "https://github.com/manujSharmaM/key-value-data-store#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "node-localstorage": "^2.1.6"
-  }
+  "dependencies": {}
 }
