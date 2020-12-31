@@ -18,7 +18,7 @@ create a js file and import the keyvaluedatastore.lib
     const datastore = require("./keyvaluedatastore-lib.js")
 
 This will be create the file path by default
-const store = new datastore();
+    const store = new datastore();
 
 Otherwise mention the file path as shown below
 
