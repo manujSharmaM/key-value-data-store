@@ -8,8 +8,8 @@ To build a file-based key-value data store that supports the basic CRD operation
 
 To run this project ,install it locally using npm:
 
-  npm init
-  node unit-testing.js
+    npm init
+    node unit-testing.js
 
 ## How to use this library
 
