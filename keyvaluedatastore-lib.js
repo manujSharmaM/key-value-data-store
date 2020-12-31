@@ -48,7 +48,7 @@ var keyValueDataStore = class keyValueDataStore {
 
     var jsonKey = key;
     var obj = {};
-    obj[jsonKey] = { Salary: value, time_to_live: time_to_live };
+    obj[jsonKey] = { value: value, time_to_live: time_to_live };
 
     jsonArr.push(obj);
     let data = JSON.stringify(jsonArr, null, 2);
@@ -120,7 +120,7 @@ var keyValueDataStore = class keyValueDataStore {
     } else if (sizeInKB > 16) {
       console.log("Size of json object exceeds 16KB");
     } else if (fileSizeInGB == 1) {
-      console.log("Size of Storage exceeds 1 GB");
+      console.log("Size of Storage exceeded 1 GB.Cannot store anymore");
     } else if (this.checkJSON(this.key)) {
       console.log("Key already exists  in local Storage");
     } else {
